@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 dotenv.config();
+console.log("text");
 
 const genAI = new GoogleGenerativeAI("AIzaSyC-BbPH-U-DmOe5H5bn6QMxOkXJixo6yJ4");
 
